@@ -1,0 +1,7 @@
+spring:
+  elasticsearch:
+    uris: http://localhost:9200 # 연결할 Elasticsearch 주소
+
+logging:
+  level:
+    org.elasticsearch.client: TRACE # Elasticsearch의 쿼리 로그를 출력
