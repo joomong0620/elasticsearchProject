@@ -10,7 +10,7 @@ import lombok.ToString;
 
 public class UserDto {
 	
-	
+	// 생성
 	@Getter
 	@Setter
 	@ToString
@@ -53,5 +53,20 @@ public class UserDto {
 					
 		}
 	}
+	
+	
+	// 수정
+	@Getter
+	@Setter
+	@ToString
+	public static class UpdateDto{
+		private String name;
+		private Integer age;
+		private Boolean isActive;
+	
+	
+	}
+	
+	
 
 }

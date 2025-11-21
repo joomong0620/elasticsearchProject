@@ -37,5 +37,12 @@ public class UserDocument {
 	
 	@Field(type=FieldType.Boolean)
 	private Boolean isActive;
+
+	// 유저 정보 수정 메소드 => 나중에 유저 정보 수정할거다는 이 메소드만 호출해주면 됨
+	public void updateUserInfo(String name, Integer age, Boolean isActive) {
+		this.name = name;
+		this.age = age;
+		this.isActive = isActive;
+	}
 	
 }
