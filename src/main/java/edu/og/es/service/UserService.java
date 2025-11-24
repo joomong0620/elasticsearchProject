@@ -24,6 +24,8 @@ public interface UserService {
 
 	// 유저 삭제
 	void deleteUser(String id);
+	
+	
 
 
 	
