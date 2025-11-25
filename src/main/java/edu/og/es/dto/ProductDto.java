@@ -1,5 +1,6 @@
 package edu.og.es.dto;
 
+import edu.og.es.document.ProductDocument;
 import edu.og.es.entity.Product;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -54,6 +55,24 @@ public class ProductDto {
 					.category(p.getCategory())
 					.build();
 		}
+		// Product Document를 DTO로 변환
+		public static Response toDto(ProductDocument p){
+			return Response.builder()
+					.productId(p.getId() + "") // 문자열로 만들어 쓸거면
+					.productName(p.getName())
+					.description(p.getDescription())
+					.price(p.getPrice())
+					.rating(p.getRating())
+					.category(p.getCategory())
+					.build();
+			
+				
+			
+		}
+			
 	}
+	
+		
+
 
 }
