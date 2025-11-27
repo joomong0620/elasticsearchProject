@@ -43,9 +43,9 @@
             <totalSizeCap>2GB</totalSizeCap>
         </rollingPolicy>
         
-        <!-- Test를 위하여 INFO 이상만 저장 -->
+        <!--  특정 level 이상만 저장 -->
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
-           <level>INFO</level>   
+           <level>WARN</level>   
        </filter>
     </appender>
     

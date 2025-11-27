@@ -525,3 +525,378 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2025-11-26 18:18:26.174  INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-11-26 18:18:26.183  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2025-11-26 18:18:26.200  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-27 10:09:24.964  INFO  edu.og.es.ElasticsearchProjectApplication - Starting ElasticsearchProjectApplication using Java 17 with PID 14164 (C:\workspace\6_SpringBoot\elasticsearchProject\bin\main started by TJ in C:\workspace\6_SpringBoot\elasticsearchProject)
+2025-11-27 10:09:24.990  INFO  edu.og.es.ElasticsearchProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-27 10:09:25.044  INFO  edu.og.es.ElasticsearchProjectApplication - Starting ElasticsearchProjectApplication using Java 17 with PID 8968 (C:\workspace\6_SpringBoot\elasticsearchProject\bin\main started by TJ in C:\workspace\6_SpringBoot\elasticsearchProject)
+2025-11-27 10:09:25.052  INFO  edu.og.es.ElasticsearchProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-27 10:09:25.109  INFO  org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\TJ\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\23.7.0.25.01\65cc9902e2d3f270908f7e45b9570079988d1b5f\ojdbc8-23.7.0.25.01.jar referenced one or more files that do not exist: file:/C:/Users/TJ/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/23.7.0.25.01/65cc9902e2d3f270908f7e45b9570079988d1b5f/oraclepki.jar
+2025-11-27 10:09:25.110  INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-27 10:09:25.110  INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-27 10:09:25.146  INFO  org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\TJ\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\23.7.0.25.01\65cc9902e2d3f270908f7e45b9570079988d1b5f\ojdbc8-23.7.0.25.01.jar referenced one or more files that do not exist: file:/C:/Users/TJ/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/23.7.0.25.01/65cc9902e2d3f270908f7e45b9570079988d1b5f/oraclepki.jar
+2025-11-27 10:09:25.147  INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-27 10:09:25.147  INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-27 10:09:26.912  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-27 10:09:26.918  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-11-27 10:09:26.973  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-27 10:09:26.977  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-11-27 10:09:26.983  INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface edu.og.es.repository.ProductRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-11-27 10:09:27.017  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 88 ms. Found 2 Elasticsearch repository interfaces.
+2025-11-27 10:09:27.063  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-27 10:09:27.065  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-27 10:09:27.095  INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface edu.og.es.repository.ProductDocumentRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-27 10:09:27.101  INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface edu.og.es.repository.UserDocumentRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-27 10:09:27.109  INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface edu.og.es.repository.ProductRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-11-27 10:09:27.115  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2025-11-27 10:09:27.184  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 185 ms. Found 2 Elasticsearch repository interfaces.
+2025-11-27 10:09:27.229  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-27 10:09:27.237  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-27 10:09:27.260  INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface edu.og.es.repository.ProductDocumentRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-27 10:09:27.287  INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface edu.og.es.repository.UserDocumentRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-27 10:09:27.322  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interface.
+2025-11-27 10:09:28.035  INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-27 10:09:28.071  INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-27 10:09:28.075  INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-27 10:09:28.076  INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-27 10:09:28.101  INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-27 10:09:28.125  INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-27 10:09:28.127  INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-27 10:09:28.128  INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-27 10:09:28.174  INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-27 10:09:28.175  INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3065 ms
+2025-11-27 10:09:28.213  INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-27 10:09:28.214  INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3066 ms
+2025-11-27 10:09:28.528  INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-27 10:09:28.528  INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-27 10:09:28.647  INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-27 10:09:28.647  INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-27 10:09:28.714  INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-27 10:09:28.732  INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-27 10:09:29.260  INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-27 10:09:29.260  INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-27 10:09:29.309  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-27 10:09:29.310  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-27 10:09:30.332  INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@75461c39
+2025-11-27 10:09:30.334  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-27 10:09:30.341  INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@7f7e95a6
+2025-11-27 10:09:30.344  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-27 10:09:31.015  INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-27 10:09:31.016  INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-27 10:09:32.403  INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-27 10:09:32.403  INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-27 10:09:33.003  INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27 10:09:33.004  INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27 10:09:33.848  INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-27 10:09:33.851  WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-11-27 10:09:34.267  WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-27 10:09:34.279  WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-27 10:09:34.790  INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-27 10:09:34.795  INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-27 10:09:34.800  WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-11-27 10:09:34.811  INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-27 10:09:34.812  INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27 10:09:34.820  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-27 10:09:34.841  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-27 10:09:34.861  INFO  edu.og.es.ElasticsearchProjectApplication - Started ElasticsearchProjectApplication in 10.999 seconds (process running for 15.083)
+2025-11-27 10:09:34.883  INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-27 10:09:34.926  ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-11-27 10:09:46.248  INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-27 10:09:46.249  INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-27 10:09:46.250  INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-27 10:12:03.285  INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-27 10:12:03.301  INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-27 10:12:03.306  INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-27 10:12:03.432  INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-27 10:12:03.433  INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-27 10:12:03.442  INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27 10:12:03.449  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-27 10:12:03.468  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-27 10:12:03.580  INFO  edu.og.es.ElasticsearchProjectApplication - Starting ElasticsearchProjectApplication using Java 17 with PID 8968 (C:\workspace\6_SpringBoot\elasticsearchProject\bin\main started by TJ in C:\workspace\6_SpringBoot\elasticsearchProject)
+2025-11-27 10:12:03.580  INFO  edu.og.es.ElasticsearchProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-27 10:12:03.987  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-27 10:12:04.033  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-11-27 10:12:04.048  INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface edu.og.es.repository.ProductRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-11-27 10:12:04.058  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 2 Elasticsearch repository interfaces.
+2025-11-27 10:12:04.064  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-27 10:12:04.064  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-27 10:12:04.072  INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface edu.og.es.repository.ProductDocumentRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-27 10:12:04.074  INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface edu.og.es.repository.UserDocumentRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-27 10:12:04.082  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2025-11-27 10:12:04.264  INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-27 10:12:04.265  INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-27 10:12:04.266  INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-27 10:12:04.266  INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-27 10:12:04.304  INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-27 10:12:04.305  INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 721 ms
+2025-11-27 10:12:04.353  INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-27 10:12:04.359  INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-27 10:12:04.376  INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-27 10:12:04.382  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-11-27 10:12:04.467  INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@4de5b39e
+2025-11-27 10:12:04.468  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-11-27 10:12:04.503  INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-27 10:12:04.552  INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-27 10:12:04.637  INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27 10:12:04.733  INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-27 10:12:04.769  DEBUG org.elasticsearch.client.RestClient - request [HEAD http://localhost:9200/products] returned [HTTP/1.1 200 OK]
+2025-11-27 10:12:04.808  DEBUG org.elasticsearch.client.RestClient - request [HEAD http://localhost:9200/users] returned [HTTP/1.1 200 OK]
+2025-11-27 10:12:04.843  WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-27 10:12:05.049  INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-27 10:12:05.054  INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-27 10:12:05.062  INFO  edu.og.es.ElasticsearchProjectApplication - Started ElasticsearchProjectApplication in 1.524 seconds (process running for 165.283)
+2025-11-27 10:12:05.065  INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-27 10:12:06.211  INFO  edu.og.es.ElasticsearchProjectApplication - Starting ElasticsearchProjectApplication using Java 17 with PID 6672 (C:\workspace\6_SpringBoot\elasticsearchProject\bin\main started by TJ in C:\workspace\6_SpringBoot\elasticsearchProject)
+2025-11-27 10:12:06.214  INFO  edu.og.es.ElasticsearchProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-27 10:12:06.274  INFO  org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\TJ\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\23.7.0.25.01\65cc9902e2d3f270908f7e45b9570079988d1b5f\ojdbc8-23.7.0.25.01.jar referenced one or more files that do not exist: file:/C:/Users/TJ/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/23.7.0.25.01/65cc9902e2d3f270908f7e45b9570079988d1b5f/oraclepki.jar
+2025-11-27 10:12:06.274  INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-27 10:12:06.275  INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-27 10:12:07.264  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-27 10:12:07.267  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-11-27 10:12:07.314  INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface edu.og.es.repository.ProductRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-11-27 10:12:07.338  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 2 Elasticsearch repository interfaces.
+2025-11-27 10:12:07.355  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-27 10:12:07.356  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-27 10:12:07.373  INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface edu.og.es.repository.ProductDocumentRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-27 10:12:07.377  INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface edu.og.es.repository.UserDocumentRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-27 10:12:07.382  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2025-11-27 10:12:07.959  INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-27 10:12:07.976  INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-27 10:12:07.979  INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-27 10:12:07.979  INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-27 10:12:08.042  INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-27 10:12:08.043  INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1768 ms
+2025-11-27 10:12:08.323  INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-27 10:12:08.405  INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-27 10:12:08.464  INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-27 10:12:08.860  INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-27 10:12:08.907  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-27 10:12:09.315  INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1686a671
+2025-11-27 10:12:09.317  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-27 10:12:09.775  INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-27 10:12:10.849  INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-27 10:12:11.074  INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27 10:12:11.795  WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-11-27 10:12:11.933  DEBUG org.elasticsearch.client.RestClient - request [HEAD http://localhost:9200/products] returned [HTTP/1.1 200 OK]
+2025-11-27 10:12:12.047  DEBUG org.elasticsearch.client.RestClient - request [HEAD http://localhost:9200/users] returned [HTTP/1.1 200 OK]
+2025-11-27 10:12:12.129  WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-27 10:12:12.356  INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-11-27 10:12:12.589  INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-27 10:12:12.595  WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-11-27 10:12:12.601  INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27 10:12:12.606  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-27 10:12:12.624  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-27 10:12:12.661  INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-27 10:12:12.696  ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-11-27 10:12:53.105  INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-27 10:12:53.106  INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-27 10:12:53.108  INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-11-27 10:12:53.108  TRACE edu.og.es.common.filter.LoggingFilter - [Incoming Request] : GET /products
+2025-11-27 10:12:53.126  TRACE edu.og.es.common.filter.LoggingFilter - [Outgoing Response] : GET /products 200 18ms
+2025-11-27 10:18:02.752  TRACE edu.og.es.common.filter.LoggingFilter - [Incoming Request] : GET /products/suggestions
+2025-11-27 10:18:02.834  DEBUG org.elasticsearch.client.RestClient - request [POST http://localhost:9200/products/_search?typed_keys=true&search_type=query_then_fetch] returned [HTTP/1.1 200 OK]
+2025-11-27 10:18:03.018  TRACE edu.og.es.common.filter.LoggingFilter - [Outgoing Response] : GET /products/suggestions 200 266ms
+2025-11-27 10:18:06.505  TRACE edu.og.es.common.filter.LoggingFilter - [Incoming Request] : GET /products/suggestions
+2025-11-27 10:18:06.513  DEBUG org.elasticsearch.client.RestClient - request [POST http://localhost:9200/products/_search?typed_keys=true&search_type=query_then_fetch] returned [HTTP/1.1 200 OK]
+2025-11-27 10:18:06.515  TRACE edu.og.es.common.filter.LoggingFilter - [Outgoing Response] : GET /products/suggestions 200 10ms
+2025-11-27 10:18:11.735  TRACE edu.og.es.common.filter.LoggingFilter - [Incoming Request] : GET /products/suggestions
+2025-11-27 10:18:11.763  DEBUG org.elasticsearch.client.RestClient - request [POST http://localhost:9200/products/_search?typed_keys=true&search_type=query_then_fetch] returned [HTTP/1.1 200 OK]
+2025-11-27 10:18:11.765  TRACE edu.og.es.common.filter.LoggingFilter - [Outgoing Response] : GET /products/suggestions 200 30ms
+2025-11-27 10:18:14.034  TRACE edu.og.es.common.filter.LoggingFilter - [Incoming Request] : GET /products/search
+2025-11-27 10:18:14.090  DEBUG org.elasticsearch.client.RestClient - request [POST http://localhost:9200/products/_search?typed_keys=true&search_type=query_then_fetch] returned [HTTP/1.1 200 OK]
+2025-11-27 10:18:14.094  TRACE edu.og.es.common.filter.LoggingFilter - [Outgoing Response] : GET /products/search 200 60ms
+2025-11-27 10:18:18.723  TRACE edu.og.es.common.filter.LoggingFilter - [Incoming Request] : GET /products
+2025-11-27 10:18:18.730  TRACE edu.og.es.common.filter.LoggingFilter - [Outgoing Response] : GET /products 200 7ms
+2025-11-27 10:18:21.577  TRACE edu.og.es.common.filter.LoggingFilter - [Incoming Request] : POST /products
+2025-11-27 10:18:22.655  DEBUG org.elasticsearch.client.RestClient - request [PUT http://localhost:9200/products/_doc/21?refresh=false] returned [HTTP/1.1 201 Created]
+2025-11-27 10:18:22.685  DEBUG org.elasticsearch.client.RestClient - request [POST http://localhost:9200/products/_refresh] returned [HTTP/1.1 200 OK]
+2025-11-27 10:18:22.689  TRACE edu.og.es.common.filter.LoggingFilter - [Outgoing Response] : POST /products 200 1112ms
+2025-11-27 10:18:25.136  TRACE edu.og.es.common.filter.LoggingFilter - [Incoming Request] : DELETE /products/1
+2025-11-27 10:18:25.226  WARN  edu.og.es.common.exception.GlobalExceptionHandler - [Exception] : status=400 path=/products/1 code=BAD_REQUEST message=존재하지 않는 회원입니다.
+2025-11-27 10:18:25.235  WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: 존재하지 않는 회원입니다.]
+2025-11-27 10:18:25.235  TRACE edu.og.es.common.filter.LoggingFilter - [Outgoing Response] : DELETE /products/1 400 99ms
+2025-11-27 10:18:27.458  TRACE edu.og.es.common.filter.LoggingFilter - [Incoming Request] : GET /products
+2025-11-27 10:18:27.469  TRACE edu.og.es.common.filter.LoggingFilter - [Outgoing Response] : GET /products 200 11ms
+2025-11-27 10:18:30.092  TRACE edu.og.es.common.filter.LoggingFilter - [Incoming Request] : GET /products/search
+2025-11-27 10:18:30.142  DEBUG org.elasticsearch.client.RestClient - request [POST http://localhost:9200/products/_search?typed_keys=true&search_type=query_then_fetch] returned [HTTP/1.1 200 OK]
+2025-11-27 10:18:30.195  TRACE edu.og.es.common.filter.LoggingFilter - [Outgoing Response] : GET /products/search 200 103ms
+2025-11-27 10:18:31.875  TRACE edu.og.es.common.filter.LoggingFilter - [Incoming Request] : GET /products/suggestions
+2025-11-27 10:18:31.887  DEBUG org.elasticsearch.client.RestClient - request [POST http://localhost:9200/products/_search?typed_keys=true&search_type=query_then_fetch] returned [HTTP/1.1 200 OK]
+2025-11-27 10:18:31.889  TRACE edu.og.es.common.filter.LoggingFilter - [Outgoing Response] : GET /products/suggestions 200 14ms
+2025-11-27 10:18:45.100  TRACE edu.og.es.common.filter.LoggingFilter - [Incoming Request] : DELETE /products/1
+2025-11-27 10:18:45.105  WARN  edu.og.es.common.exception.GlobalExceptionHandler - [Exception] : status=400 path=/products/1 code=BAD_REQUEST message=존재하지 않는 회원입니다.
+2025-11-27 10:18:45.106  WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: 존재하지 않는 회원입니다.]
+2025-11-27 10:18:45.106  TRACE edu.og.es.common.filter.LoggingFilter - [Outgoing Response] : DELETE /products/1 400 6ms
+2025-11-27 10:18:59.129  TRACE edu.og.es.common.filter.LoggingFilter - [Incoming Request] : POST /products
+2025-11-27 10:18:59.167  DEBUG org.elasticsearch.client.RestClient - request [PUT http://localhost:9200/products/_doc/22?refresh=false] returned [HTTP/1.1 201 Created]
+2025-11-27 10:18:59.184  DEBUG org.elasticsearch.client.RestClient - request [POST http://localhost:9200/products/_refresh] returned [HTTP/1.1 200 OK]
+2025-11-27 10:18:59.189  TRACE edu.og.es.common.filter.LoggingFilter - [Outgoing Response] : POST /products 200 60ms
+2025-11-27 10:19:01.339  TRACE edu.og.es.common.filter.LoggingFilter - [Incoming Request] : GET /products
+2025-11-27 10:19:01.349  TRACE edu.og.es.common.filter.LoggingFilter - [Outgoing Response] : GET /products 200 10ms
+2025-11-27 10:32:45.517  TRACE edu.og.es.common.filter.LoggingFilter - [Incoming Request] : POST /products%E3%84%B4
+2025-11-27 10:32:45.528  ERROR edu.og.es.common.exception.GlobalExceptionHandler - [Exception] : status=500 path=/products%E3%84%B4 code=INTERNAL_SERVER_ERROR message=No static resource products%E3%84%B4.
+2025-11-27 10:32:45.528  ERROR edu.og.es.common.exception.GlobalExceptionHandler - Unhandled exception stacktrace
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource products%E3%84%B4.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at edu.og.es.common.filter.LoggingFilter.doFilter(LoggingFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-11-27 10:32:45.534  WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource products%E3%84%B4.]
+2025-11-27 10:32:45.534  TRACE edu.og.es.common.filter.LoggingFilter - [Outgoing Response] : POST /products%E3%84%B4 500 17ms
+2025-11-27 10:32:46.585  TRACE edu.og.es.common.filter.LoggingFilter - [Incoming Request] : POST /products%E3%84%B4
+2025-11-27 10:32:46.586  ERROR edu.og.es.common.exception.GlobalExceptionHandler - [Exception] : status=500 path=/products%E3%84%B4 code=INTERNAL_SERVER_ERROR message=No static resource products%E3%84%B4.
+2025-11-27 10:32:46.587  ERROR edu.og.es.common.exception.GlobalExceptionHandler - Unhandled exception stacktrace
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource products%E3%84%B4.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at edu.og.es.common.filter.LoggingFilter.doFilter(LoggingFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-11-27 10:32:46.591  WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource products%E3%84%B4.]
+2025-11-27 10:32:46.591  TRACE edu.og.es.common.filter.LoggingFilter - [Outgoing Response] : POST /products%E3%84%B4 500 6ms
+2025-11-27 11:49:46.119  INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-27 11:49:46.130  INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-27 11:49:46.132  INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-27 11:49:46.245  INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-27 11:49:46.246  INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-27 11:49:46.256  INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27 11:49:46.263  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-11-27 11:49:46.273  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-11-27 11:49:48.365  WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
